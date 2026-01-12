@@ -5,13 +5,13 @@
 }
 
 .big-container1 {
-  background-image: url(images/desktop/image-header.jpg); 
+  background-image: url(images/desktop/image-header.jpg);
   background-position: center;
   background-size: cover;
   height: 600px;
 }
 
-.creatives{
+.creatives {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,18 +19,18 @@
   gap: 60px;
   padding-top: 40px;
 }
-.creatives h2{
+.creatives h2 {
   font-size: 60px;
   color: white;
 }
 .container {
   color: white;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
-.container h2{
+.container h2 {
   font-size: 40px;
 }
 .container ul {
@@ -38,11 +38,13 @@
   display: flex;
   gap: 50px;
 }
+.hamburger {
+  display: none;
+}
 
 .container ul li {
-  padding: 10px 20px; 
+  padding: 10px 20px;
   cursor: pointer;
-  
 }
 
 .container ul li:hover {
@@ -55,7 +57,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 240vh;
-  gap: 0; 
+  gap: 0;
 }
 
 .boxes1 {
@@ -78,14 +80,14 @@
 }
 
 .boxes2 {
-  background-image: url(images/desktop/image-transform.jpg); 
+  background-image: url(images/desktop/image-transform.jpg);
   background-position: center;
   background-size: cover;
   height: 80vh;
 }
 
 .boxes3 {
-  background-image: url(images/desktop/image-stand-out.jpg); 
+  background-image: url(images/desktop/image-stand-out.jpg);
   background-position: center;
   background-size: cover;
   height: 80vh;
@@ -105,7 +107,7 @@
 }
 
 .boxes5 {
-  background-image: url(images/desktop/image-graphic-design.jpg); 
+  background-image: url(images/desktop/image-graphic-design.jpg);
   background-position: center;
   background-size: cover;
   height: 80vh;
@@ -125,9 +127,8 @@
   padding: 0 50px;
 }
 
-
 .boxes6 {
-  background-image: url(images/desktop/image-photography.jpg); 
+  background-image: url(images/desktop/image-photography.jpg);
   background-position: center;
   background-size: cover;
   height: 80vh;
@@ -211,33 +212,32 @@
 }
 
 .cone1 {
-  background-image: url(images/desktop/image-gallery-milkbottles.jpg); 
+  background-image: url(images/desktop/image-gallery-milkbottles.jpg);
   background-position: center;
   background-size: cover;
   height: 60vh;
 }
 
 .cone2 {
-  background-image: url(images/desktop/image-gallery-orange.jpg); 
+  background-image: url(images/desktop/image-gallery-orange.jpg);
   background-position: center;
   background-size: cover;
   height: 60vh;
 }
 
 .cone3 {
-  background-image: url(images/desktop/image-gallery-cone.jpg); 
+  background-image: url(images/desktop/image-gallery-cone.jpg);
   background-position: center;
   background-size: cover;
   height: 60vh;
 }
 
 .cone4 {
-  background-image: url(images/desktop/image-gallery-sugarcubes.jpg); 
+  background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
   background-position: center;
   background-size: cover;
   height: 60vh;
 }
-
 
 .footer {
   background-color: #90d4c5;
@@ -297,7 +297,62 @@
   cursor: pointer;
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
 
+  .container ul {
+    display: none;
+  }
 
+  .hamburger {
+    display: flex;
+    width: 30px;
+  }
 
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  .creatives h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+  }
+  .boxes1 {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
 
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  .small1 h1 {
+    display: flex;
+   
+    width: 280px;
+    flex-direction: column;
+  }
+  .small1 h1 .trans{
+    margin-left: 63px;
+  }
+  .small1 p{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    color: rgb(44, 44, 44);
+    
+  }
+  .learn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+}
