@@ -1,0 +1,159 @@
+@media (max-width: 480px) {
+  /* Header/navigation styles */
+  .container {
+    padding: 10px;
+  }
+
+  .container ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    width: 30px;
+  }
+
+  .creatives h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .big-container1 {
+    height: 500px;
+  }
+
+  /* Reorder the boxes section */
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Set order for all boxes */
+  .boxes1 {
+    order: 2;
+    height: 2000px;
+
+    /* Text comes after image */
+  }
+  
+  .boxes2 {
+    order: 1; /* Image comes first after header */
+    height: 2000px;
+  }
+  
+  .boxes3 {
+    order: 3;
+    height: 2000px;
+  }
+  
+  .boxes4 {
+    order: 4;
+    height: 2000px;
+  }
+  
+  .boxes5 {
+    order: 5;
+    height: 2000px;
+  }
+  .small5{
+    margin-bottom: 200px;
+  }
+  
+  .boxes6 {
+    order: 6;
+    height: 2000px;
+  }
+
+  /* Text sections styling */
+  .boxes1, .boxes4 {
+    height: auto;
+    min-height: 400px;
+    padding: 60px 25px;
+    text-align: center;
+  }
+
+  .small1, .small4 {
+    padding: 0;
+    gap: 25px;
+  }
+
+  .small1 h1, .small4 h1 {
+    font-size: 32px;
+    font-weight: 900;
+  }
+
+  .small1 p, .small4 p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: hsl(232, 10%, 55%);
+    font-weight: 600;
+  }
+
+  .learn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  /* Graphic design and photography sections */
+  .small5, .small6 {
+    top: 200px;
+    padding: 0 25px;
+    text-align: center;
+  }
+
+  .small5 h1, .small6 h1 {
+    font-size: 28px;
+  }
+
+  .small5 p, .small6 p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* Testimonials section */
+  .clients {
+    padding: 80px 20px;
+  }
+
+  .clients-title {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .clients-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .client-box {
+    min-width: 100%;
+  }
+
+  /* Gallery section */
+  .cone {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cone1, .cone2, .cone3, .cone4 {
+    height: 250px;
+  }
+
+  /* Footer adjustments */
+  .footer {
+    padding: 50px 20px;
+  }
+
+  .footer-list {
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .footer-list li a {
+    font-size: 16px;
+  }
+}
